@@ -1,0 +1,9 @@
+Aiheenmäärittely
+
+Labyrinth- ohjelman tarkoituksena on löytää nopein reitti labyrintistä ulos.
+Pelaaja asettaa laudalle esteitä (seiniä), joiden läpi ei voi liikkua. Tämän jälkeen pelaaja asettaa
+labyrintin uloskäynnin sekä lähtöpisteen, josta ohjelma lähtee liikkeelle.
+Ohjelma rullaa, kunnes jokin nopeimmista reiteistä ulos aloituspisteestä on löytynyt.
+
+Ohjelma arvottaa pelin "maapalat" etäisyyden mukaan ja valitsee niistä aina pienimmän, johon se suuntaa.
+Jos reittiä ei sitä kautta löydy, joutuu ohjelma palaamaan taaksepäin ja kokeilemaan jotain toista reittiä.
