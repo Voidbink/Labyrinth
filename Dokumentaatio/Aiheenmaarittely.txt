@@ -7,3 +7,12 @@ Ohjelma rullaa, kunnes jokin nopeimmista reiteistä ulos aloituspisteestä on löyt
 
 Ohjelma arvottaa pelin "maapalat" etäisyyden mukaan ja valitsee niistä aina pienimmän, johon se suuntaa.
 Jos reittiä ei sitä kautta löydy, joutuu ohjelma palaamaan taaksepäin ja kokeilemaan jotain toista reittiä.
+
+Tarkoituksenani olisi näin aluksi käyttää A* algoritmia lyhimmän reitin etsimiseen, painottamalla
+"maapalat" etäisyyden mukaan, algoritmi valitsee aina ruudun, joka on lähimpänä uloskäyntiä.
+
+Ohjelma saa syötteekseen tyhjän maa-alueen, johon pelaaja/käyttäjä syöttää esteitä (seiniä) sekä alku-
+ja loppupisteen.
+
+Tavoitteena olisi saada toiminta mahtumaan A*- algoritmin O(|E|) aika vaativuuteen, mutta nöyränä
+lähdetään liikenteeseen ja katotaa, miten nopeeseen/hitaaseen loppuen lopuks päästään.
